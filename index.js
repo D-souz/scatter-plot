@@ -57,6 +57,8 @@ document.addEventListener('DOMContentLoaded', () => {
                 .attr('id', 'y-axis')
                 .attr("transform", `translate(${padding},0)`)
                 .call(yAxis);
+
+            
     
     console.log(dataset)
             // creating the circle dots to the svg using the data from the api
@@ -98,7 +100,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     .style('visibility', 'hidden')
                 })
         })
-    
+
 
     } catch (error) {
         console.log(error);
